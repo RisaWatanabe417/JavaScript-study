@@ -1,11 +1,21 @@
 'use strict';
 
-  console.log(10 + 3); // 13
-  console.log(10 - 3);
-  console.log(10 * 3);
-  console.log(10 / 3);
-  console.log(10 % 3); // 1
-  console.log(10 ** 3); // 1000
+// 変数 let var
 
-  console.log(2 + 10 * 3) // 32
-  console.log((2 + 10) * 3) // 36
+let price = 500;
+
+// price = price + 100;
+price += 100; // 600
+
+// price = price * 2;
+price *= 2; // 1200
+
+// price = price + 1;
+// price += 1;
+price++; // 1201
+
+// price = price - 1;
+// price-= 1;
+price--; // 1200
+
+console.log(price);
